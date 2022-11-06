@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+      function validateForm() {
+        let x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+          alert("e-mail must be filled out");
+          return false;
+        }
+        let y = document.forms["myForm"]["pname"].value;
+        if (y == "") {
+          alert("password must be filled out");
+          return false;
+        }
+      }
+      </script>
+
+    
+    <style>
+       
+        *{
+          margin: 0;
+          padding: 0;
+
+        }
+        .background-image{
+         
+          background-image: url(https://media.istockphoto.com/photos/cyber-security-web-development-and-work-in-it-concept-picture-id1289411982?b=1&k=20&m=1289411982&s=170667a&w=0&h=0R3OXR4L6LOGphYA3sul4bWQwpGj_DSl05ENiP2kRZg=);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        }
+        h1 {
+          font-size: 4em;
+          text-align: center;
+          
+          
+
+        }
+      
+        h3 {
+          font-size: 2em;
+        }
+        .content{
+          background-color: rgba(240, 240, 240, 0.2);
+           margin-left: 600px;
+           margin-right: 300px;
+           margin-top: 60px;
+           margin-bottom: 100px;
+           text-align: center;
+           position: relative;
+           right: 150px;
+          
+           
+          
+          
+          
+        }
+        .bor{
+          border: solid;
+          border-radius: 50px;
+          background-color: rgb(253, 15, 253);
+
+        }
+        .border{
+          
+          border-style: none none solid none;
+
+          color: white;
+          
+          text-align:center;
+
+        }
+        .log{
+          background-color:brown;
+           border: solid; 
+           border-radius: 30px;;
+        }
+        .topic{
+        font-size: 2.5em;
+        border-style: none none dashed none;
+        color: rgb(19, 15, 15);
+          
+          font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .topnav {
+  overflow: hidden;
+  background-color: rgb(4, 10, 66);
+  position: relative;
+  bottom:120px ;
+  
+}
+
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.col{
+  text-align: center;
+  
+  border-style: none none solid none;
+  color:rgb(255, 72, 0) ;
+    }
+  .ema{
+      font-size: 20px;
+      color: black;
+    }   
+       
+    input[type=submit] {
+  width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
+  right: 60px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+    .bo{
+      text-align: center;
+      font-size: 3em;
+      position: relative;
+      left: 500px;
+    }   
+    </style>
+</head>
+<body>
+  <div class="background-image">
+
+  
+  <h1 id="heading">
+    <pre>
+
+    </pre>
+  </h1>
+  <div class="topnav">
+    <a href="https://www.youtube.com/c/CodeHelpbyBabbar">YouTube</a>
+    <a href="http://127.0.0.1:5500/index3.html">About</a>
+    <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZGznXEtrAgByJDZr5sIk-0WYwZF7ILsRp468uy9JzXg&s"
+        height="50"/>
+         <b class="bo"><i class="border">CODE</i><i class="col"><i>Help</i></b> 
+  </div>
+  
+
+
+  <div class="content">
+  
+  <form name="myForm" action="http://127.0.0.1:5500/index2.html" onsubmit="return validateForm()">
+    
+                                      
+                                                    <pre>
+ <b class="topic">Login</b>
+                                                   
+                                                    </pre>
+                                               
+                                                  
+                                                
+<pre class="ema">
+     Email :  <input type="text"  placeholder="Enter e-mail" name="fname" />
+
+  Password :  <input  type="password" placeholder="Enter 5-digit password" name="pname"/>
+
+          <input   type="submit" value="LOGIN"  />   
+                
+                                                   
+</pre>
+</div>
+  </form>   
+</div>
+</body>
+</html>
